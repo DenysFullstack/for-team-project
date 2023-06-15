@@ -1,3 +1,20 @@
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+}
+
+.our-products-container {
+    max-width: 335px;
+    margin: 0 auto;
+}
+
 .our-products-text {
     text-align: center;
 }
@@ -5,3 +22,14 @@
 .products-card-list {
     display: flex;
 }
+
+.products-card {
+    display: block;
+    max-width: 335px;
+    width: 100%;
+}
+
+/* max-width: 264px;
+border-radius: 0px 0px 4px 4px;
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+background-color: #FFFFFF; */
